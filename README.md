@@ -22,7 +22,7 @@ This mvp was bootstrapped with [Create React App](https://github.com/facebookinc
 Once completed, the code is in the ``/build`` directory. make sure to do the ``build:css`` before ``build``.
 
 ```sh
-export PUBLIC_URL=.
+export PUBLIC_URL=https://psenger.github.io/upgrowth-reactjs-flickr/build/
 export NODE_ENV=production
 npm install
 npm run build:css
