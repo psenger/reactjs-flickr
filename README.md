@@ -20,6 +20,7 @@ This mvp was bootstrapped with [Create React App](https://github.com/facebookinc
 Once completed, the code is in the ``/public`` directory
 
 ```sh
+export PUBLIC_URL=/
 export NODE_ENV=production
 npm install
 npm run build:css
@@ -65,6 +66,7 @@ npm test
 
 ```
 .
+├── build
 ├── public
 └── src
     ├── actionCreators
