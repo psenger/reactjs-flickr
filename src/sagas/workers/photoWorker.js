@@ -22,7 +22,7 @@ export default function* call_fetchPhotos ( action ) {
     }
     yield put( loadPhotos( photo ) );
     yield put( loadPhotosStats( { page, pages, perpage, total } ) );
-    yield put( requestPhotosSuccess( stats ) )
+    yield put( requestPhotosSuccess( '' ) )
   } catch (e) {
     if ( e.status === 500 ) {
       yield put( requestPhotosFail( 'System failure' ) );

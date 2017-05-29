@@ -14,7 +14,7 @@ const results = (photos) => ( <div className="container-fluid">
                                 { photos.map((photo,index) => (<Photo key={index.toString()} photo={photo} />))}
                               </div>);
 
-const noResults = (tag) => (<div>No results exist for <span className="tag">{tag}</span></div>);
+const noResults = (tag) => (<div>No results exist for <span className="tag">{tag || 'a blank value' }</span></div>);
 
 const alert = ( classNames, msg ) => (<div className={classnames({'alert': true,},classNames)} role="alert">{msg}</div>);
 
@@ -42,8 +42,8 @@ export class SearchPage extends Component {
             <span aria-hidden="true">&nbsp;do you want to find on Flickr?</span>
           </Form>
           <br/>
-          { ( photos.length === 0 && ! message ) ? noResults(tag) : results(photos) }
           { message ? alert( 'alert-warning', 'On snap, something bad happened. Maybe if you try again it will resolve it\'s self' ) : null  }
+          { ( photos.length === 0 || message ) ? noResults(tag) : results(photos) }
         </Main>
         <br/>
         <Nav stats={stats} onPrevious={()=>photoActionsDispatcher.requestPhotos( tag, stats.page - 1 )} onNext={()=>photoActionsDispatcher.requestPhotos( tag, stats.page + 1 ) } />
