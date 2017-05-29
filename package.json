@@ -40,6 +40,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "build:css": "node-sass-chokidar --output-style compressed --include-path ./src --include-path ./node_modules src/ -o public/",
-    "test": "react-scripts test --env=jsdom"
+    "test": "react-scripts test --env=jsdom",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
