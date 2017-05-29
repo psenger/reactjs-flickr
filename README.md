@@ -11,16 +11,18 @@ A very simple ReactJS app written to view tagged flicker pictures.
 
 💥 BOOM 💥
 
+[Click here to see the Demo](https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html)
+
 ## Usage
 
-This mvp was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app). To facility the example, the base commands have been distilled to the following NPM scripts:
+This mvp was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app), Node version 6.9.0, and React 15.5.4. To facility the example, the base commands have been distilled to the following NPM scripts:
 
 ### to build the final product
 
 Once completed, the code is in the ``/build`` directory. make sure to do the ``build:css`` before ``build``.
 
 ```sh
-export PUBLIC_URL=/
+export PUBLIC_URL=.
 export NODE_ENV=production
 npm install
 npm run build:css
