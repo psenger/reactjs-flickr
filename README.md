@@ -17,7 +17,7 @@ This mvp was bootstrapped with [Create React App](https://github.com/facebookinc
 
 ### to build the final product
 
-Once completed, the code is in the ``/public`` directory
+Once completed, the code is in the ``/build`` directory. make sure to do the ``build:css`` before ``build``.
 
 ```sh
 export PUBLIC_URL=/
