@@ -1,0 +1,45 @@
+{
+  "name": "upgrowth-reactjs-flickr",
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "description": "A very simple ReactJS app written to view tagged flicker pictures. BOOM!",
+  "keywords": [
+    "Upgrowth",
+    "ReactJS",
+    "Flckr"
+  ],
+  "bugs": {
+    "url": "https://github.com/psenger/upgrowth-reactjs-flickr/issues"
+  },
+  "homepage": "https://github.com/psenger/upgrowth-reactjs-flickr",
+  "repository": {
+    "type": "git",
+    "url": "https://psenger@github.com/psenger/upgrowth-reactjs-flickr.git"
+  },
+  "author": "Philip A Senger <philip.a.senger@cngrgroup.com>",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "bootstrap-sass": "^3.3.7",
+    "classnames": "^2.2.5",
+    "fetch-jsonp": "^1.0.7",
+    "node-sass-chokidar": "0.0.2",
+    "react": "^15.5.4",
+    "react-bootstrap": "^0.31.0",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.5",
+    "react-router": "^4.1.1",
+    "react-scripts": "1.0.6",
+    "redux": "^3.6.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-logger": "^3.0.6",
+    "redux-saga": "^0.14.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:css": "node-sass-chokidar --output-style compressed --include-path ./src --include-path ./node_modules src/ -o public/",
+    "test": "react-scripts test --env=jsdom"
+  }
+}
