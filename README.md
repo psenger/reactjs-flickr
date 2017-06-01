@@ -1,4 +1,4 @@
-# Upgrowth ReactJS Flckr
+# ReactJS Flckr
 
 Written by Philip A Senger
 
@@ -11,7 +11,7 @@ A very simple ReactJS app written to view tagged flicker pictures.
 
 💥 BOOM 💥
 
-[Click here to see the Demo](https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html)
+[Click here to see the Demo](https://psenger.github.io/reactjs-flickr/build/index.html)
 
 ## Usage
 
@@ -22,7 +22,7 @@ This mvp was bootstrapped with [Create React App](https://github.com/facebookinc
 Once completed, the code is in the ``/build`` directory. make sure to do the ``build:css`` before ``build``.
 
 ```sh
-export PUBLIC_URL=https://psenger.github.io/upgrowth-reactjs-flickr/build/
+export PUBLIC_URL=https://psenger.github.io/reactjs-flickr/build/
 export NODE_ENV=production
 npm install
 npm run build:css
