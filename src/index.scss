@@ -53,13 +53,21 @@
 
 $tag-color: #FFC807 !default;
 
-.homepage { 
-  background-color: #4f5170;
+.homepage {
+  background: rgb(79, 81, 112);
+  background: -moz-linear-gradient(-45deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  background: linear-gradient(135deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f5170', endColorstr='#7db9e8',GradientType=1 );
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
 }
 
 body {
   color: white;
   padding: 5px;
+  height: 100%;
+  margin: 0;
 }
 
 .tag {

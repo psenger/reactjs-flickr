@@ -7,7 +7,7 @@ Written by Philip A Senger
 
 ## Objectives
 
-A very simple ReactJS app written to view tagged flicker pictures.
+Build a very simple ReactJS app written to view tagged flicker pictures.
 
 💥 BOOM 💥
 

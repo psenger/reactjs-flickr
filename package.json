@@ -1,21 +1,22 @@
 {
-  "name": "upgrowth-reactjs-flickr",
+  "name": "reactjs-flickr",
   "version": "0.1.0",
   "private": true,
   "main": "src/index.js",
   "description": "A very simple ReactJS app written to view tagged flicker pictures. BOOM!",
   "keywords": [
-    "Upgrowth",
+    "Redux",
+    "Saga",
     "ReactJS",
     "Flckr"
   ],
   "bugs": {
-    "url": "https://github.com/psenger/upgrowth-reactjs-flickr/issues"
+    "url": "https://github.com/psenger/reactjs-flickr/issues"
   },
-  "homepage": "https://github.com/psenger/upgrowth-reactjs-flickr",
+  "homepage": "https://github.com/psenger/reactjs-flickr",
   "repository": {
     "type": "git",
-    "url": "https://psenger@github.com/psenger/upgrowth-reactjs-flickr.git"
+    "url": "https://psenger@github.com/psenger/reactjs-flickr.git"
   },
   "author": "Philip A Senger <philip.a.senger@cngrgroup.com>",
   "license": "MIT",
@@ -39,9 +40,10 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "prebuild": "npm run build:css",
     "build:css": "node-sass-chokidar --output-style compressed --include-path ./src --include-path ./node_modules src/ -o public/",
     "test": "react-scripts test --env=jsdom",
-    "predeploy": "npm run build:css && npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   }
 }

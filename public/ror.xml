@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:ror="http://rorweb.com/0.1/" >
 <channel>
-  <title>ROR Sitemap for https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html</title>
-  <link>https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html</link>
+  <title>ROR Sitemap for https://psenger.github.io/reactjs-flickr/build/index.html</title>
+  <link>https://psenger.github.io/reactjs-flickr/build/index.html</link>
 
 <item>
-     <link>https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html</link>
-     <title>Upgrowth ReactJS Flickr Tag Search</title>
-     <description>Upgrowth ReactJS Flickr Tag Search</description>
+     <link>https://psenger.github.io/reactjs-flickr/build/index.html</link>
+     <title>ReactJS Flickr Tag Search</title>
+     <description>ReactJS Flickr Tag Search</description>
      <ror:updatePeriod>yearly</ror:updatePeriod>
      <ror:sortOrder>0</ror:sortOrder>
      <ror:resourceOf>sitemap</ror:resourceOf>

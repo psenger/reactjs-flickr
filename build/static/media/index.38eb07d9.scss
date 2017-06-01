@@ -1,0 +1,102 @@
+@import "scss/variables";
+
+// Core variables and mixins
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/mixins";
+
+// Reset and dependencies
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/print";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
+
+// Core CSS
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/type";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/code";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/grid";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tables";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/forms";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/buttons";
+
+// Components
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/component-animations";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/dropdowns";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/button-groups";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/input-groups";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navs";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/navbar";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/breadcrumbs";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pagination";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/pager";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/labels";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/badges";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/jumbotron";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/thumbnails";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/alerts";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/progress-bars";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/media";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/list-group";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/panels";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-embed";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/wells";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/close";
+
+// Components w/ JavaScript
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/modals";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/tooltip";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/popovers";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/carousel";
+
+// Utility classes
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/utilities";
+//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
+
+
+$tag-color: #FFC807 !default;
+
+.homepage {
+  background: rgb(79, 81, 112);
+  background: -moz-linear-gradient(-45deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  background: -webkit-linear-gradient(-45deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  background: linear-gradient(135deg, rgba(79, 81, 112, 1) 0%, rgba(125, 185, 232, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f5170', endColorstr='#7db9e8',GradientType=1 );
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
+}
+
+body {
+  color: white;
+  padding: 5px;
+  height: 100%;
+  margin: 0;
+}
+
+.tag {
+  color: $tag-color !important;
+}
+
+.form-control {
+  color: $tag-color !important;
+  border-radius: 0px !important;
+}
+
+.nav-btnbar {
+  width:100%;
+  .nav-btnbar-inner {
+    display: table;
+    margin: 0 auto;
+  }
+}
+.nav-btn {
+  width: 15em;
+}
+
+input[type=text] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $tag-color;
+}
+
+label {
+  display: inline-block;
+  text-align: right;
+}

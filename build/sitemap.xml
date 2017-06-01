@@ -5,7 +5,7 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
-  <loc>https://psenger.github.io/upgrowth-reactjs-flickr/build/index.html</loc>
+  <loc>https://psenger.github.io/reactjs-flickr/build/index.html</loc>
   <lastmod>2017-05-29T12:29:48+00:00</lastmod>
   <changefreq>yearly</changefreq>
 </url>
